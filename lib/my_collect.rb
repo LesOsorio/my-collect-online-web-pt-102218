@@ -10,3 +10,5 @@ collection
 end
 
 collection = ["ruby","javascript","python","objective-c"]
+
+collection = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
