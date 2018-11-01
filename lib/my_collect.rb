@@ -6,7 +6,7 @@ while counter < collection.length
   array << yield(collection[counter])
   counter += 1
 end
-collection
+array
 end
 
 # my_collect(["ruby","javascript","python","objective-c"]) do |lang|
