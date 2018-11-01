@@ -8,3 +8,5 @@ while counter < collection.length
 end
 collection
 end
+
+collection = ["ruby","javascript","python","objective-c"]
