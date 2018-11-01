@@ -9,6 +9,7 @@ end
 collection
 end
 
-collection = ["ruby","javascript","python","objective-c"]
+my_collect(["ruby","javascript","python","objective-c"]) do |lang|
+  lang.upcase
 
 collection = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
