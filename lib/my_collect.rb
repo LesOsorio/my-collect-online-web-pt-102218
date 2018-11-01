@@ -5,6 +5,6 @@ array = []
 while counter < collection.lenght
   array << yield(collection[counter])
   counter += 1
-end 
+end
 collection
 end 
