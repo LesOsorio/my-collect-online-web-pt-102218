@@ -11,5 +11,8 @@ end
 
 my_collect(["ruby","javascript","python","objective-c"]) do |lang|
   lang.upcase
+end
 
-collection = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]
+array = ["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"] do |name|
+  name.split(" ").first
+end 
